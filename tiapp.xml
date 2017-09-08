@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <id>com.vmware.awiosframework</id>
+    <name>AWiOS-Framework</name>
+    <version>1.0</version>
+    <publisher>bramisetty</publisher>
+    <url/>
+    <description>undefined</description>
+    <copyright>2017 by bramisetty</copyright>
+    <icon>appicon.png</icon>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>0e7d2fa4-d3c7-4b86-9222-89b0bf6fa640</guid>
+    <property name="ti.ui.defaultunit" type="string">dp</property>
+    <property name="run-on-main-thread" type="bool">true</property>
+    <ios>
+        <enable-launch-screen-storyboard>true</enable-launch-screen-storyboard>
+        <use-jscore-framework>true</use-jscore-framework>
+        <use-app-thinning>true</use-app-thinning>
+        <min-ios-ver>9.0</min-ios-ver>
+        <team-id>5347883SU6</team-id>
+        <plist>
+            <dict>
+                <key>UISupportedInterfaceOrientations~iphone</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                </array>
+                <key>UISupportedInterfaceOrientations~ipad</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                    <string>UIInterfaceOrientationPortraitUpsideDown</string>
+                    <string>UIInterfaceOrientationLandscapeLeft</string>
+                    <string>UIInterfaceOrientationLandscapeRight</string>
+                </array>
+                <key>UIRequiresPersistentWiFi</key>
+                <false/>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+                <key>UIStatusBarHidden</key>
+                <false/>
+                <key>UIStatusBarStyle</key>
+                <string>UIStatusBarStyleDefault</string>
+                <key>CFBundleURLTypes</key>
+                <array>
+                    <dict>
+                        <key>CFBundleTypeRole</key>
+                        <string>Editor</string>
+                        <key>CFBundleURLName</key>
+                        <string>com.vmware.awiosframework</string>
+                        <key>CFBundleURLSchemes</key>
+                        <array>
+                            <string>touchtest-awios-framework</string>
+                        </array>
+                    </dict>
+                </array>
+            </dict>
+        </plist>
+    </ios>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="iphone" version="2.0">com.soasta.touchtest</module>
+        <module platform="iphone">hyperloop</module>
+        <module platform="commonjs">ti.cloud</module>
+        <module platform="iphone">com.appcelerator.apm</module>
+    </modules>
+    <deployment-targets>
+        <target device="android">false</target>
+        <target device="ipad">true</target>
+        <target device="iphone">true</target>
+        <target device="mobileweb">false</target>
+    </deployment-targets>
+    <sdk-version>6.1.2.GA</sdk-version>
+    <plugins>
+        <plugin version="1.0">ti.alloy</plugin>
+        <plugin>hyperloop</plugin>
+    </plugins>
+    <property name="appc-app-id" type="string">59b0782eca0e4e65e293c1b5</property>
+    <property name="com-soasta-touchtest-version" type="string">8244.293.2</property>
+    <property name="com-soasta-touchtest-ios-appId" type="string">558031</property>
+    <property name="acs-authbase-url-development" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-development" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-development" type="string">6wRJchR4LfK6Xy8K7MWlA5lYvHp0CPp7</property>
+    <property name="acs-oauth-key-development" type="string">BIaHcAys0dJ8T9XhqnACtp2oag5vWum0</property>
+    <property name="acs-api-key-development" type="string">aLXhSiF7o2JeiK7LKJxgGBztiN7G7el4</property>
+    <property name="acs-username-development" type="string">appc_app_user_dev</property>
+    <property name="acs-password-development" type="string">Mti9AzX0yRtUjFk3i2</property>
+    <property name="acs-authbase-url-production" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-production" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-production" type="string">OsF8HZ5JW1QyZDsRBy9CQTCx33hY37At</property>
+    <property name="acs-oauth-key-production" type="string">rnGDbXlK8w02xO7WxHRmaF8tr9emj8Su</property>
+    <property name="acs-api-key-production" type="string">TUr7x60zxVDD6C0bJ8lkuwHDar5JM9o0</property>
+    <property name="acs-username-production" type="string">appc_app_user</property>
+    <property name="acs-password-production" type="string">ZGTsazjUHU6CwQ44dQ</property>
+    <property name="appc-org-id" type="string">100000174</property>
+    <property name="appc-creator-user-id" type="string">264006a7-2694-41d5-a269-fa3dcbb27dad</property>
+    <property name="com-appcelerator-apm-id" type="string">427d3d41870d4203bc0b411d5887ba0b00555300</property>
+</ti:app>
